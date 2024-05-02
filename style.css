@@ -1,0 +1,96 @@
+/* CSS styles for the form */
+body{
+  margin: 0px;
+  padding: 0px;
+  
+
+}
+
+.form-section {
+  max-width: 100vw;
+  margin: 5px;
+  padding: 0px;
+  background-color: #add2ff;
+  border-radius: 3px;
+  border:2px solid rgb(173, 210, 255);
+  box-shadow: #666666af 1px 1px 1px 1px;
+}
+
+.form-heading {
+  font-size: 17px;
+  font-weight: bold;
+  margin-bottom: 0px;
+  background-color: #add2ff;
+  border-radius: 3px;
+  padding-left: 5px;
+}
+
+.main_form_content{
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #f0f0f0;
+  
+
+}
+
+.mandatory-label {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.form-message {
+  margin-bottom: 20px;
+}
+
+.extra_decleration_text{
+  color: #62a8fe;
+}
+
+form table tr input, select, option{
+  border: 1px solid #62a8fe;
+  border-radius: 4px;
+  box-shadow: rgb(170, 212, 249) 3px 3px 6px 0px inset;
+  padding: 10px;
+  outline-color: #62a8fe;
+  cursor: pointer;
+
+}
+table{
+  border: 0px;
+  pointer-events: none;
+}
+
+tr {
+  margin-bottom: 20px;
+
+  
+  /* color: rebeccapurple; */
+}
+tr td{
+  width: 30%;
+  pointer-events: all;
+}
+
+.required-field::after {
+  content: "*";
+  color: red;
+}
+
+.field-description {
+  font-size: 14px;
+  color: #666;
+}
+.submit_button{
+  background-color: #88bdfd;
+  border: 1px solid #62a8fe;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+/* input{
+  width: 200px;
+} */

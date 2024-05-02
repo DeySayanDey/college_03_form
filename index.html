@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Railway Form</title>
+</head>
+<body>
+    <section class="form-section">
+        <div class="form-heading">Individual Registation</div>
+        <div class="main_form_content">
+        <div class="mandatory-label">*mandatory</div>
+        <div id="Registered_declaration" class="form-message form-heading">GARBAGE JUNK VALUES IN PROFILE MAY LEAD TO DEACTIVATION </br>Please use a valid E-Mail Id and mobile number in registation.</div>
+        <form action="">
+            <table border="0" >
+                <tr>
+                    <td><label for="UserId">User ID <span class="required-field"></span></label></td>
+                    <td><input type="text" name="UserId" id="UserId" required><a href="#" class="extra_decleration_text">Check Availability</a></td>
+                    
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="field-description">Between 3 to 10 characters only later number and_are allowed</td>
+                </tr>
+                <tr>
+                    <td><label for="UserPsw">Password<span class="required-field"></span></label></td>
+                    <td><input type="password" name="UserPsw" id="UserPsw" required ></td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td class="field-description">Reenter previous given password</td>
+                </tr>
+                <tr>
+                    <td><label for="UserPswc">Confirm Password<span class="required-field"></span></label></td>
+
+                    <td><input type="password" name="UserPswc" id="UserPswc" required ></td>
+                </tr>
+                <tr>
+                    <td colspan="2">
+                        <p class="extra_decleration_text">if you forget your password, we will identify you with this information</p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="SecqurityQuestion">SecqurityQuestion<span class="required-field"></span></label>
+                    </td>
+                    <td><select name="SecqurityQuestion" id="SecqurityQuestion">
+                        <option value="What is your name?">What is your name?</option>
+                        <option value="What is your village name?">What is your village name?</option>
+                    </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="SecqurityQuestionAns">Security Answer<span class="required-field"></span></label>
+                    </td>
+                    <td>
+                        <input type="text" name="SecqurityQuestionAns" id="SecqurityQuestionAns" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Language">Preferred Language<span class="required-field"></span></label>                        
+                    </td>
+                    <td>
+                        <select name="PreferredLanguage" id="Language">
+                            <option value="English">English</option>
+                            <option value="Hindi">Hindi</option>
+                            <option value="Bangla">Bangla</option>
+                        </select>
+                    </td>
+                </tr>
+                <!-- <tr>
+                    <td class="form-heading" colspan="2">Personal Detalls</td>
+                </tr> -->
+                </table>
+                <div class="form-heading">Personal Detalls</div>
+            <table border="0" >
+                <tr>
+                    <td>
+                        <label for="Ufname">First Name<span class="required-field"></span></label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="Ufname" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Umname">Middle Name</label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="Umname" >
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Ulname">Last Name<span class="required-field"></span></label>
+                    </td>
+                    <td>
+                        <input type="text" name="" id="Ulname" required>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="Gender">Gender</label></td>
+                    <td>
+                        <input type="radio" id="Male" name="Gender">
+                        <label for="Male">Male</label>
+                        <input type="radio" id="Female" name="Gender">
+                        <label for="Female">Female</label>
+                    </td>
+                </tr>
+                
+                <tr>
+                    <td><label for="MaritualStatus">Maritual Status</label></td>
+                    <td>
+                    <input type="radio" id="Married" name="MaritualStatus">
+                    <label for="Married">Married</label>
+                    <input type="radio" name="MaritualStatus" id="Unmarried">
+                    <label for="Unmarried">Unmarried</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="DOB">Date Of Birth<span class="required-field"></span></label>
+                    </td>
+                    <td>
+                        <input type="date" name="DOB" id="DOB">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Occupation">Occupation<span class="required-field"></span></label>                        
+                    </td>
+                    <td>
+                        <select name="Occupation" id="Occupation">
+                            <option value="Public">Public</option>
+                            <option value="Private">Private</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="AadhaarNo">Aadhaar Card No</label>
+                    </td>
+                    <td>
+                        <input type="number" name="AadhaarNo" id="AadhaarNo">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="PANNO">PAN Card</label>
+                    </td>
+                    <td>
+                        <input type="number" name="PANNO" id="PANNO">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="E-Mail">Email<span class="required-field"></span></label>
+                    </td>
+                    <td>
+                        <input type="email" name="E-Mail" id="E-Mail">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Mobile">Mobile<span class="required-field"></span></label>
+                    </td>
+                    <td>
+                        +91<input type="number" name="Mobile" id="Mobile">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="nationality">Nationality<span class="required-field"></span></label>                        
+                    </td>
+                    <td>
+                        <select name="Nationality" id="nationality">
+                            <option value="none" id="netion">--Select Nationality--</option>
+                        </select>
+                        
+                    </td>
+                </tr>
+                
+            </table>
+        </table>    
+                    
+        <div class="form-heading">Residential Address</div><!-- .Residential Address</b> -->
+         <table border="0">
+        <tr>
+            <td>
+                <label for="Fno">Flat/Door/Block No.<span class="required-field"></span></label> 
+            </td>
+            <td>
+                <input type="number" name="Fno" id="Fno">
+            </td>
+        </tr> 
+        <tr>
+            <td>
+                <label for="street">Street/Lane</label> 
+            </td>
+            <td>
+                <input type="text" name="street" id="street">(Optional)
+            </td>
+        </tr>   
+        <tr>
+            <td>
+                <label for="area">Area/Locality</label> 
+            </td>
+            <td>
+                <input type="text" name="area" id="area">(Optional)
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="countries">Country<span class="required-field"></span></label>
+            </td>
+            <td>
+                <select name="Country" id="country">
+                    <option value="none" id="countries" autocomplete="off">--Select Country--</option>
+                </select>
+            </td>    
+        </tr>
+        <tr>
+            <td>
+                <label for="PinCode">Pin Code<span class="required-field"></span></label> 
+            </td>
+            <td>
+                <input type="number" id="PinCode" name="PinCode">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="state">State<span class="required-field"></span></label> 
+            </td>
+            <td>
+                <select name="State" id="state">
+                    <option value="none">--Select State--</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="city">City/Town<span class="required-field"></span></label>
+            </td>
+            <td>
+                <select name="City" id="city">
+                    <option value="none">--Select City--</option>
+                </select>
+            </td>    
+        </tr>
+        <tr>
+            <td>
+                <label for="PO">Post Office<span class="required-field"></span></label>
+            </td>
+            <td>
+                <select name="PO" id="PO">
+                    <option value="Arambagh">Arambagh</option>
+                    <option value="Other">Other</option>
+                </select>
+            </td>    
+        </tr>
+        <tr>
+            <td>
+                <label for="Phno">Phone<span class="required-field"></span></label> 
+            </td>
+            <td>
+                <input type="number" id="Phno" name="Phno">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                
+                <label for="CopyResidence"><b>Copy Residence to office Address </b></label>
+            </td>
+            <td>
+                <input type="radio" name="CopyResidence" id="Yes">
+                <label for="Yes">Yes</label>
+                <input type="radio" name="CopyResidence" id="No">
+                <label for="No">No</label>
+            </td>
+        </tr>
+        <td></td>
+        <td><h1>YAD9K</h1></td>
+        <tr>
+            <td>
+                <label for="captca">Type Code Shown<span class="required-field"></span></label> 
+            </td>
+            <td>
+                <input type="text" id="captcha" name="captcha">
+            </td>
+        <tr>
+            <td></td>
+            <td class="field-description">Captcha letters are case sensitive and to be entered in Upper Case only.</td>
+        </tr>
+    </table>
+
+            <button type="submit" class="submit_button">submit</button>
+        </form>
+    </div>
+    </section>
+    <!-- <script src="api.js"></script> -->
+    <script type="module" src="app.js"></script>
+</body>
+</html>
